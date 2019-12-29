@@ -26,14 +26,15 @@ layout: default
   * チャレキャラ 2019
 
 ## Works
-  Name | Description | Year
-  --- | --- | ---
-  rogue_game | ターミナル上で動くRPGゲーム | 2018 ~ 
-  FK_1906 | プレゼンスキルの数値化ツール | 2019
-  tanalisp | Lisp インタプリタ in Python | 2019
-  python_tanaline | 新入生教育用LINEボット | 2019
-  fifth_robot_pkg | 自律移動ロボット(CIR-KIT5号機) | 2016 ~ 2018
-  Hello Idea | アイデア創出プラットフォーム | 2018
+
+  Name | Description | Year  
+  --- | --- | ---  
+  rogue_game | ターミナル上で動くRPGゲーム | 2018 ~   
+  FK_1906 | プレゼンスキルの数値化ツール | 2019  
+  tanalisp | Lisp インタプリタ in Python | 2019  
+  python_tanaline | 新入生教育用LINEボット | 2019  
+  fifth_robot_pkg | 自律移動ロボット(CIR-KIT5号機) | 2016 ~ 2018  
+  Hello Idea | アイデア創出プラットフォーム | 2018  
 
 ## Internships
   * 株式会社OPTiM R&Dチーム 2-weeks

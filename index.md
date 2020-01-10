@@ -35,7 +35,21 @@ layout: default
   [python_tanaline](https://github.com/tanacchi/python_tanaline) | 新入生教育用LINEボット | 2019  
   [fifth_robot_pkg](https://github.com/CIR-KIT/fifth_robot_pkg) | 自律移動ロボット(CIR-KIT5号機) | 2016 ~ 2018  
   [Hello Idea](https://helloidea.site/)| アイデア創出プラットフォーム | 2018  
+  
+## Skills
 
+  Skill | Level
+  --- | ---
+  C/C++  | RPG ゲーム開発，ROS ノード
+  Python | Web サービス，機械学習，Lisp インタプリタ
+  ROS | 自律移動ロボット開発
+  Ruby on Rails | Web サービス開発(1年間)
+  機械学習 | 独学3ヶ月 ＋ 大学院で研究
+  Flask | 簡単なWebサービス，LINE Bot 開発
+  Ruby | Rails で使う程度
+  Lisp | 趣味程度
+  Rust | Hello World
+  
 ## Internships
   * 株式会社OPTiM R&Dチーム 2-weeks
 

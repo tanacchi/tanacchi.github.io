@@ -24,6 +24,7 @@ layout: default
   * HACK U 2019
   * JPHACKS HackDay (Best Hack Day Award)
   * JPHACKS AwardDay (FUJI FILM賞，Innovator認定)
+  * Hack Festival Kitakyushu (Red Bull 賞)
   * チャレキャラ 2019
 
 ## Works

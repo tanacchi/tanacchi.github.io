@@ -6,6 +6,7 @@ import Affiliations from './components/Affiliations'
 import Events from './components/Events'
 import Works from './components/Works'
 import Skills from './components/Skills'
+import Internships from './components/Internships'
 
 function App() {
   return (
@@ -19,10 +20,7 @@ function App() {
       <Events />
       <Works />
       <Skills />
-      <h2 id="internships">Internships</h2>
-      <ul>
-        <li>株式会社OPTiM R&Dチーム 2-weeks</li>
-      </ul>
+      <Internships />
     </div>
   );
 }

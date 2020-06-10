@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Access from './components/Access'
+import Affiliations from './components/Affiliations'
 
 function App() {
   return (
@@ -11,16 +12,7 @@ function App() {
         <p>This is the tanacchi's portfolio.</p>
       </header>
       <Access />
-      <h2 id="affiliations">Affiliations</h2>
-      <ul>
-        <li>九州工業大学大学院 生命体工学研究科 人間知能システム専攻 (2020 ~ 2022)</li>
-        <li>VRAIN Solution エンジニアスタッフ (2020 ~ )</li>
-        <li>九工大プロ研（九州工業大学プログラミング研究会）(2019 ~ )</li>
-        <li>MYDRY (2018)</li>
-        <li>九州工業大学 工学部 総合システム工学科 (2016 ~ 2020)</li>
-        <li>九州工業大学 自律移動ロボット開発プロジェクト CIR-KIT (2016 ~ 2018)</li>
-      </ul>
-
+      <Affiliations />
       <h2 id="events">Events and Hackathon</h2>
       <ul>
         <li>つくばチャレンジ(2016, 2017, 2018)</li>
@@ -85,7 +77,7 @@ function App() {
           </tr>
           <tr>
             <td>
-              <a 
+              <a
                 className="App-link"
                 href="https://github.com/tanacchi/python_tanaline"
               >
@@ -97,7 +89,7 @@ function App() {
           </tr>
           <tr>
             <td>
-              <a 
+              <a
                 className="App-link"
                 href="https://github.com/CIR-KIT/fifth_robot_pkg"
               >
@@ -117,7 +109,7 @@ function App() {
               <a
                 className="App-link"
                 href="https://qr-official.line.me/sid/L/682dslrg.png"
-                >
+              >
                 tanakinator
               </a>
             </td>

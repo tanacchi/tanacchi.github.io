@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Access from './components/Access'
 
 function App() {
   return (
@@ -9,44 +10,7 @@ function App() {
         <h1>tanacchi</h1>
         <p>This is the tanacchi's portfolio.</p>
       </header>
-      <h2>Access</h2>
-      q111026d[at]mail.kyutech.jp
-      <br />
-      <a
-        className="App-link"
-        href="https://github.com/tanacchi/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Github
-      </a>
-      <br />
-      <a
-        className="App-link"
-        href="https://twitter.com/q111026d/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Twitter
-      </a>
-      <br />
-      <a
-        className="App-link"
-        href="https://tanacchi.hatenablog.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Blog
-      </a>
-      <br />
-      <a
-        className="App-link"
-        href="https://qiita.com/tanacchi/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Qiita
-      </a>
+      <Access />
       <h2 id="affiliations">Affiliations</h2>
       <ul>
         <li>九州工業大学大学院 生命体工学研究科 人間知能システム専攻 (2020 ~ 2022)</li>

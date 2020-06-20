@@ -1,15 +1,16 @@
 import React from 'react'
 import { Box } from '@material-ui/core'
 import Button from '@material-ui/core/Button'
+import ButtonGroup from '@material-ui/core/ButtonGroup'
 
 type RefButtonProps = { url: string, text: string }
 const RefButton: React.FC<RefButtonProps> = ({ url, text }) => {
   return (
     <Button
       href={url}
-      variant="outlined"
       target="_blank"
-      color="primary">
+      color="primary"
+      variant="outlined">
       {text}
     </Button>
   )
@@ -25,18 +26,20 @@ const Access: React.FC = () => {
     <div id="Access">
       <Box>
         <h2>Access</h2>
-        <RefButton
-          url={githubURL}
-          text="GitHub" />
-        <RefButton
-          url={blogURL}
-          text="Blog" />
-        <RefButton
-          url={twitterURL}
-          text="Twitter" />
-        <RefButton
-          url={qiitaURL}
-          text="Qiita" />
+        <ButtonGroup>
+          <RefButton
+            url={githubURL}
+            text="GitHub" />
+          <RefButton
+            url={blogURL}
+            text="Blog" />
+          <RefButton
+            url={twitterURL}
+            text="Twitter" />
+          <RefButton
+            url={qiitaURL}
+            text="Qiita" />
+        </ButtonGroup>
       </Box>
     </div>
   )

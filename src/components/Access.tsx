@@ -1,5 +1,5 @@
-import React from 'react'
-import { Box, SvgIcon } from '@material-ui/core'
+import React, { ReactNode } from 'react'
+import { Box } from '@material-ui/core'
 import Button from '@material-ui/core/Button'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
 import GitHubIcon from '@material-ui/icons/GitHub'
@@ -7,10 +7,11 @@ import BlogIcon from '@material-ui/icons/BookOutlined'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import QiitaIcon from '@material-ui/icons/Pets'
 
+
 type RefButtonProps = {
   url: string,
   text: string,
-  icon: any
+  icon: ReactNode
 }
 const RefButton: React.FC<RefButtonProps> = ({ url, text, icon }) => {
   return (
@@ -31,13 +32,11 @@ const Access: React.FC = () => {
   const blogURL: string = "https://tanacchi.hatenablog.com/"
   const qiitaURL: string = "https://qiita.com/tanacchi/"
 
-  console.log(typeof (<GitHubIcon />))
-
   return (
     <div id="Access">
       <Box>
         <h2>Access</h2>
-        <ButtonGroup>
+        <ButtonGroup orientation='vertical'>
           <RefButton
             url={githubURL}
             text="GitHub"

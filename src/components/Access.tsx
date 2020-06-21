@@ -1,46 +1,60 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
+import { Box } from '@material-ui/core'
+import Button from '@material-ui/core/Button'
+import ButtonGroup from '@material-ui/core/ButtonGroup'
+import GitHubIcon from '@material-ui/icons/GitHub'
+import BlogIcon from '@material-ui/icons/BookOutlined'
+import TwitterIcon from '@material-ui/icons/Twitter'
+import QiitaIcon from '@material-ui/icons/Pets'
+
+
+type RefButtonProps = {
+  url: string,
+  text: string,
+  icon: ReactNode
+}
+const RefButton: React.FC<RefButtonProps> = ({ url, text, icon }) => {
+  return (
+    <Button
+      href={url}
+      target="_blank"
+      color="primary"
+      variant="outlined"
+      startIcon={icon}>
+      {text}
+    </Button>
+  )
+}
 
 const Access: React.FC = () => {
+  const githubURL: string = "https://github.com/tanacchi/"
+  const twitterURL: string = "https://twitter.com/q111026d/"
+  const blogURL: string = "https://tanacchi.hatenablog.com/"
+  const qiitaURL: string = "https://qiita.com/tanacchi/"
+
   return (
     <div id="Access">
-      <h2>Access</h2>
-            q111026d[at]mail.kyutech.jp
-      <br />
-      <a
-        className="App-link"
-        href="https://github.com/tanacchi/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Github
-      </a>
-      <br />
-      <a
-        className="App-link"
-        href="https://twitter.com/q111026d/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Twitter
-      </a>
-      <br />
-      <a
-        className="App-link"
-        href="https://tanacchi.hatenablog.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Blog
-      </a>
-      <br />
-      <a
-        className="App-link"
-        href="https://qiita.com/tanacchi/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Qiita
-      </a>
+      <Box>
+        <h2>Access</h2>
+        <ButtonGroup orientation='vertical'>
+          <RefButton
+            url={githubURL}
+            text="GitHub"
+            icon={<GitHubIcon />} />
+          <RefButton
+            url={blogURL}
+            text="Blog"
+            icon={<BlogIcon />} />
+          <RefButton
+            url={twitterURL}
+            text="Twitter"
+            icon={<TwitterIcon />} />
+          <RefButton
+            url={qiitaURL}
+            text="Qiita"
+            icon={<QiitaIcon />} />
+        </ButtonGroup>
+      </Box>
     </div>
   )
 }

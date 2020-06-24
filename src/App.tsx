@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import './App.css'
+import 'react-tabs/style/react-tabs.css'
 import Header from './components/Header'
 import Access from './components/Access'
 import Affiliations from './components/Affiliations'
@@ -10,10 +11,6 @@ import Skills from './components/Skills'
 import Internships from './components/Internships'
 
 function App() {
-  const handleSelect = (index: number, last: number) => {
-    console.log(`{last} => {index}`)
-  }
-
   return (
     <div className="App">
       <Header />

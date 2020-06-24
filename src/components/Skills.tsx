@@ -46,7 +46,11 @@ const Skills: React.FC = () => {
           </tr>
           <tr>
             <td>Vue.js</td>
-            <td>趣味程度</td>
+            <td>サークル内サービス</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>ポートフォリオ作成</td>
           </tr>
           <tr>
             <td>Rust</td>

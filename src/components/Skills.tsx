@@ -29,7 +29,7 @@ const Skills: React.FC = () => {
             <td>Web サービス開発(1年間)</td>
           </tr>
           <tr>
-            <td>機械学習</td>
+            <td>Machine Learing</td>
             <td>独学3ヶ月 ＋ 大学院で研究</td>
           </tr>
           <tr>

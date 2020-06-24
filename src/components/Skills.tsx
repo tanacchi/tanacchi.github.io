@@ -41,7 +41,7 @@ const Skills: React.FC = () => {
             <td>Rails で使う程度</td>
           </tr>
           <tr>
-            <td>Lisp</td>
+            <td>Scheme</td>
             <td>趣味程度</td>
           </tr>
           <tr>
